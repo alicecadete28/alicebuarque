@@ -58,3 +58,16 @@
     min-width: auto;
   }
 }
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 1.5rem; /* espaço entre as imagens */
+  margin-top: 2rem;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}

@@ -55,6 +55,11 @@
   height: auto;
 }
 
+.skills__item img {
+  width: 200%;
+  height: auto;
+}
+
 .skills__topics .topic .icons {
   display: flex;
   justify-content: center;
@@ -86,8 +91,33 @@
   margin: 0 auto;
 }
 
+.skills .skills__content ul li .image-container2 {
+  padding: 2rem;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
 .skills .skills__content ul li h3 {
   font-size: 1.6rem;
   font-weight: 500;
   margin: 2rem 0 1rem;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* espaço entre as imagens */
+  margin-top: 8px;
+  flex-wrap: wrap; /* se for necessário quebrar em telas menores */
+}
+
+.tech-icons img {
+  width: 40px; /* ou 50px, ajuste conforme o visual */
+  height: auto;
 }
