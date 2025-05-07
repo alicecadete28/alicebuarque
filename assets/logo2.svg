@@ -1,0 +1,12 @@
+<svg width="320" height="65" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícone computador (estilo ASCII) -->
+  <text x="5" y="32" font-family="monospace" font-size="18" fill="#6366F1">
+    🖥️
+  </text>
+
+  <!-- Nome estilizado -->
+  <text x="60" y="42" font-family="Poppins, sans-serif" font-size="32" font-weight="600">
+    <tspan fill="#0F172A">A</tspan>
+    <tspan fill="#0F172A">B</tspan>
+  </text>
+</svg>

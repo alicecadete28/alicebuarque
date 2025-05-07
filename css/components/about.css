@@ -16,6 +16,10 @@
 
 .about .about__left ul {
   margin-left: -1.2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  padding: 0;
 }
 
 .about .about__left ul li {
@@ -30,6 +34,11 @@
 .about .about__right {
   flex: 1;
   max-width: 66rem;
+}
+
+.about .Whatsapp img {
+  width: 12%;
+  height: auto;
 }
 
 @media only screen and (max-width: 768px) {

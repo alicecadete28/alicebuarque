@@ -14,9 +14,63 @@
 }
 
 .skills .skills__content ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.skills__topics {
+  display: flex;
+  justify-content: center;
+  gap: 14rem;
+  margin-top: 2rem;
+}
+
+.skills__topics .topic {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.skills__topics .topic h4 {
+  margin-top: 1rem; /* ou qualquer valor que desejar */
+}
+
+.skills__topics .topic .imgNode {
+  width: 14rem; /* ou qualquer tamanho, como 5rem ou 50px */
+  height: auto;
+}
+
+.skills__topics .topic .imgNext {
+  width: 10rem; /* ou qualquer tamanho, como 5rem ou 50px */
+  height: auto;
+}
+
+.skills__topics .topic .imgReact {
+  width: 5rem; /* ou qualquer tamanho, como 5rem ou 50px */
+  height: auto;
+}
+
+.skills__topics .topic .imgTS {
+  width: 4rem; /* ou qualquer tamanho, como 5rem ou 50px */
+  height: auto;
+}
+
+.skills__topics .topic .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Ajuda na responsividade */
+  margin-top: 1rem;
+}
+
+.skills__topics .topic .icons2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Ajuda na responsividade */
+  margin-top: 2rem;
 }
 
 .skills .skills__content ul li .image-container {
