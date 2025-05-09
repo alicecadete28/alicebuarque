@@ -65,7 +65,20 @@
   margin-top: 2rem;
 }
 
+.image-grid2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem; /* espaço entre as imagens */
+  margin-top: 2rem;
+}
+
 .image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.image-grid2 img {
   width: 100%;
   height: auto;
   border-radius: 8px;
