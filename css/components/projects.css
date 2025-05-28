@@ -84,3 +84,14 @@
   border-radius: 8px;
   object-fit: cover;
 }
+
+.image-grid2 video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.projects__links div {
+  display: flex;
+  flex-direction: column;
+}
